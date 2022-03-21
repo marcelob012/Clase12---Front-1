@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Estilo General */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos HEADER */
+    header{
+        font-family: "Roboto", sans-serif;
+        color: white;
+    }
+    
+    /* Estilo HEADER Superior */
+    header div.superior{
+        background-color: black;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div.superior p{
+        padding: 4px 90px;
+    }
+    header div.superior ul{
+        list-style: none;
+        display: flex;
+        padding: 4px 60px;
+        gap: 20px;
+    }
+
+    /* Estilo HEADER Inferior */
+    header div.inferior{
+        background-color: #F0A83E;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div.inferior img{
+        padding-top:19px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+    }
+    header div.inferior ul{
+        list-style: none;
+        display: flex;
+        padding: 24px 40px;
+    }
+    header div.inferior ul div{
+        display: flex;
+        padding-left: 20px;
+    }
+   
+    /* Estilos MAIN */
+    main{
+        font-family: "Roboto", sans-serif;
+    }
+
+    /* Estilo MAIN Seccion Banner */
+    main section.banner{
+        height: 409px;
+        background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-end;
+    }
+    main>section.banner>h2{
+        background-color: white;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 10px 10px 10px;
+        margin-right: 12px;
+    }
+    main section.banner h4{
+        font-size: 16px;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 95px;
+    }
+    main section.banner h3{
+        background-color: #F0A83E;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        padding: 15px 23px;
+        border-radius: 5px;
+        margin-right: 117px;
+    }
+
+    /* Estilo MAIN Seccion Productos Destacados */
+    main section.productosDestacados{
+        text-align: center;
+    }
+    main>section.productosDestacados>h2{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    main>section.productosDestacados>h3{
+        font-size: 15px;
+        color: #666666;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+
+    /* Estilo MAIN Seccion Articulos */
+    main section.articulos{
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 49px;
+    }
+    main section.articulos article{
+        height: 265px;
+        width: 312px;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    main section.articulos article.churrasquito{
+        background-image: url("../img/churrasquito.png");
+    }
+    main section.articulos article.comedero{
+        background-image: url("../img/comedero.png");
+    }
+    main section.articulos article.huesito{
+        background-image: url("../img/Huesito.png");
+    }
+    main section.articulos article h5{
+        color: #3C2313;
+    }
+    main section.articulos article p{
+        color: #F0A83E;
+    }
+
+    /* Estilo MAIN Seccion Contacto */
+    main section.contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main>section.contacto>h2{
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 78px;
+    }
+    main section.contacto div.formulario{
+        padding-top: 20px;
+    }
+    main section.contacto div.formulario div.input{
+        height: 40px;
+        width: 340px;
+        background-color: #3C2313;
+        color: white;
+        font-size: 9px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    main>section.contacto>div.botones{
+        width: 340px;
+        display: flex;
+        justify-content: center;
+        padding-top: 41px;
+    }
+    main>section.contacto>div.botones>div{
+        height: 34px;
+        width: 110px;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+        margin: 6px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    main>section.contacto>div.botones>div.resetear{
+        background-color: #8A8787;
+    }
+    main>section.contacto>div.botones>div.enviar{
+        background-color: #F0A83E;
+    }
+
+    /* Estilo MAIN Seccion Suscripcion */
+    main>section.suscripcion{
+        background-color: #F0A83E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 75px;
+    }
+    main>section.suscripcion>div.msjSuscripcion{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding-left: 23px;
+        gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 17px;
+    }
+    main>section.suscripcion>div.enviarSuscripcion{
+        display: flex;
+        align-items: center;
+        padding-right: 47px;
+        gap: 5px;
+    }
+    main>section.suscripcion>div.enviarSuscripcion>div.ingresarEmail{
+        height: 40px;
+        width: 271px;
+        background-color: white;
+        font-size: 9px;
+        color: #A0A0A0;
+        line-height: 40px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    main>section.suscripcion>div.enviarSuscripcion>div.botonSuscribite{
+        height: 34px;
+        width: 70px;
+        background-color: #3C2313;
+        color: white;
+        font-size: 9px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+/* Estilos FOOTER */
+footer{
+    font-family: "Roboto", sans-serif;
+}
+
+    /* Estilo FOOTER Superior */
+    footer>div.footerSuperior{
+        background-color: #3C2313;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer>div.footerSuperior>div.iconos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:flex-start;
+        color: white;
+        padding-top: 20px;
+        padding-left: 74px;
+        padding-bottom: 24px;
+        gap: 20px;
+    }
+    footer>div.footerSuperior>img{
+        padding-right: 74px;
+    }
+    footer>div.footerSuperior>div.iconos>div{
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        gap: 20px;
+    }
+    footer>div.footerSuperior>div.iconos>div>div.datos>h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    footer>div.footerSuperior>div.iconos>div>div.datos>p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /* Estilo FOOTER Inferior */
+    footer>div.footerInferior{
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px;
+    }
